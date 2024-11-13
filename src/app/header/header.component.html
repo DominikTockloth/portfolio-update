@@ -1,0 +1,18 @@
+<!-------------------  Header section   ------------------------->
+<header id="header">
+    <div class="links">
+        <div class="switch">
+            <span (click)="switchLanguage('en')"
+                [ngClass]="{'active': selectedLanguage === 'en', 'inactive': selectedLanguage !== 'en'}" class="en">EN</span>
+            <span (click)="switchLanguage('de')"
+                [ngClass]="{'active': selectedLanguage === 'de', 'inactive': selectedLanguage !== 'de'}" class="de">DE</span>
+        </div>
+        <a href="#about">{{'header.about' | translate}}</a>
+        <a href="#skills">{{'header.skills' | translate}}</a>
+        <a href="#projects">{{'header.projects' | translate}}</a>
+    </div>
+    <div class="name-content" routerLink="landing">
+        <span class="initials">DT</span>
+        <span class="name">Dominik Tockloth</span>
+    </div>
+</header>

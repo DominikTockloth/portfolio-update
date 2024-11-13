@@ -1,0 +1,156 @@
+/***************************   Responsive   *******************************/
+@media(max-width:1230px) {
+    .scroll-offset2 {
+        margin-top: -150px !important;
+    }
+
+    .main {
+        flex-direction: column !important;
+
+        .left {
+            h2 {
+                width: unset !important;
+            }
+
+            p {
+                font-weight: 600 !important;
+            }
+
+            .talk {
+                span {
+                    font-size: 19px !important;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:990px) {
+    .left {
+        h2 {
+            font-size: 50px !important;
+            word-spacing: -10px !important;
+        }
+    }
+
+    .policy-box {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+        text-align: center !important;
+        text-wrap: unset !important;
+
+        span {
+            font-size: 14px !important;
+        }
+
+        .policy {
+            font-size: 14px !important;
+        }
+    }
+}
+
+@media(max-width:815px) {
+    .main {
+        padding: 120px 30px !important;
+    }
+}
+
+@media(max-width:650px) {
+    .main {
+        .left {
+            span {
+                font-size: 20px !important;
+            }
+
+            p {
+                font-weight: 500 !important;
+            }
+
+            h2 {
+                font-size: 35px !important;
+            }
+
+            .dev {
+                flex-wrap: wrap !important;
+            }
+
+            .need,
+            .talk {
+                font-size: 15px !important;
+            }
+        }
+
+        .input-box {
+            span {
+                font-size: 20px !important;
+                word-spacing: -4px !important;
+            }
+        }
+
+        .input::placeholder {
+            font-size: 15px !important;
+        }
+
+        .input.ng-invalid.ng-touched::placeholder {
+            font-size: 14px !important;
+        }
+    }
+}
+
+@media(max-width:510px) {
+    .left {
+        h2 {
+            font-size: 35px !important;
+        }
+
+        p {
+            font-size: 14px !important;
+            font-weight: 500 !important;
+        }
+    }
+
+    .input-box {
+        padding: 20px !important;
+    }
+
+    .policy-box {
+        margin-top: 18px !important;
+    }
+}
+
+@media(max-width:450px) {
+    .left {
+        h2 {
+            font-size: 30px !important;
+        }
+    }
+
+    .main {
+        .input-box {
+            span {
+                font-size: 16px !important;
+            }
+        }
+    }
+
+}
+
+/********************************   Responsive succsess message overlay  ************************/
+@media(max-width:550px) {
+    .message {
+        padding: 0px 20px !important;
+
+        .content {
+            padding: 24px 12px !important;
+            width: 300px !important;
+
+            p {
+                text-align: center !important;
+                text-wrap: wrap !important;
+                font-size: 19px !important;
+                margin: 0 !important;
+            }
+        }
+    }
+}

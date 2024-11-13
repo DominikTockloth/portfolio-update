@@ -1,0 +1,194 @@
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 45px 80px;
+    background: linear-gradient(25deg, rgba(27, 27, 27, 0.5) 40%, rgba(8, 70, 59, 1) 100%);
+    box-shadow: rgb(0 0 0 / 40%) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    backdrop-filter: blur(2vmax);
+    z-index: 10;
+
+    .links {
+        display: flex;
+        gap: 24px;
+        color: white;
+
+        a {
+            text-decoration: none;
+            font-family: "Fira Code", monospace;
+            font-size: 20px;
+            font-weight: 400;
+            color: white;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        /*****************  Hover effect for a href in header  ***************************/
+        a::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -6px;
+            width: 8px;
+            height: 8px;
+            background-color: #3DCFB6;
+            border-radius: 50%;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            cursor: pointer;
+        }
+
+        a:hover::after {
+            opacity: 1;
+        }
+
+        .switch {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            font-family: "Fira Code", monospace;
+            border-radius: 100px;
+            border: 1px solid #3DCFB6;
+            width: 84px;
+            height: 28px;
+            position: relative;
+
+            .en {
+                left: 0;
+            }
+
+            .de {
+                right: 0 !important;
+            }
+
+            .active {
+                background-color: #3DCFB6;
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                border-radius: 20px;
+                font-weight: 700;
+                font-size: 16px;
+                position: absolute;
+            }
+
+            .inactive {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 50%;
+                height: 100%;
+                font-weight: 400;
+                color: rgb(29, 84, 29);
+                position: absolute;
+                cursor: pointer;
+
+                &:hover {
+                    color: white;
+                }
+
+            }
+        }
+    }
+}
+
+.name-content {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    font-family: "Fira Code", monospace;
+    padding-right: 50px;
+    animation: 0.3s ease-out;
+    cursor: pointer;
+
+    &:hover {
+        .initials {
+            color: transparent;
+            -webkit-text-stroke: 1px #3DCFB6;
+        }
+
+        .name {
+            color: transparent;
+            -webkit-text-stroke: 1px white;
+        }
+    }
+
+    .initials {
+        font-size: 40px;
+        font-weight: 700;
+        color: #3DCFB6;
+        transform: rotate(90deg);
+        margin: 0;
+        -webkit-text-stroke: 1px transparent;
+    }
+
+    .name {
+        margin: 0;
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 24px;
+        -webkit-text-stroke: 1px transparent;
+
+    }
+}
+
+/***********************  Responsive  ************************************/
+
+@media(max-width:900px) {
+    header {
+        justify-content: center !important;
+    }
+
+    .name-content {
+        display: none !important;
+    }
+}
+
+@media(max-width:666px) {
+    .links {
+        gap: 15px !important;
+        align-items: center !important;
+        text-wrap: nowrap !important;
+
+        a {
+            font-size: 15px !important;
+        }
+    }
+}
+
+@media(max-width:490px) {
+    header {
+        padding: 15px 80px !important;
+
+        .links {
+            flex-direction: column !important;
+
+            a {
+                position: relative !important;
+            }
+
+            a::after {
+                content: '';
+                position: absolute !important;
+                top: -10% !important;
+                right: -15px !important;
+                left: unset !important;
+                /* Rechts neben dem Link anzeigen */
+                transform: translateY(100%) !important;
+            }
+        }
+    }
+
+
+}

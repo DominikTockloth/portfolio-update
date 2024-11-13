@@ -1,0 +1,92 @@
+{
+  "about": {
+    "who": "Wer ich bin",
+    "me": "Über mich",
+    "paragraph": "Hallo, ich bin ein deutschsprachiger Frontend-Entwickler aus Neuss. Angetrieben von den grenzenlosen Möglichkeiten in der IT, begeistert es mich, visuell ansprechende und intuitive Websites und Anwendungen zu gestalten.",
+    "flexible": " Ich bin flexibel in Bezug auf Arbeitsumgebungen, ich kann sowohl vor Ort in Neuss als auch remote effektiv arbeiten.",
+    "cognition": "Ich bin aufgeschlossen und stets auf der Suche nach persönlichen Herausforderungen, um mein Wissen und meine Fähigkeiten kontinuierlich zu verbessern.",
+    "releases": "Beim Programmieren geht es nicht nur ums Schreiben von Code – es ist ein kreatives Problemlösen. Ich finde es spannend, komplexe technische Herausforderungen in einfache, nutzerfreundliche Lösungen umzusetzen. So unterstütze ich Sie dabei, Ihre Ziele zu erreichen und Ihre Ideen zu verwirklichen."
+  },
+  "contact": {
+    "me": "Kontaktiere mich",
+    "together": "Lass uns zusammen arbeiten",
+    "problem": "Gibt es ein Problem zu lösen?",
+    "paragraph": "Kontaktieren Sie mich über dieses Formular. Ich freue mich darauf, von Ihnen zu hören, Ihre Ideen kennenzulernen und mit meiner Arbeit zu Ihren Projekten beizutragen.",
+    "need": "Sie brauchen einen Frontend Entwickler?",
+    "talk": "Lass uns reden!",
+    "name": "Wie ist Ihr Name?",
+    "placeholder-name": "Trage deinen Namen ein",
+    "placeholder-name-missing": "Oops! Ich brauche deinen Namen",
+    "mail": "Wie ist deine E-Mail?",
+    "placeholder-mail": "deine.email@email.com",
+    "placeholder-mail-missing": "Ich benötige deine E-Mail",
+    "message": "Wie kann ich behilflich sein?",
+    "placeholder-message": "Hallo Dominik, daran bin ich interessiert",
+    "placeholder-message-missing": "Was soll entwickelt werden?",
+    "have1": "Ich habe die  gelesen",
+    "have2": "und stimme der Verarbeitung meiner Daten wie beschrieben zu.",
+    "policy": "Datenschutzerklärung",
+    "hello": "Sag Hallo ;-)",
+    "succsess1": "Deine Nachricht wurde  gesendet",
+    "succsess2": "erfolgreich"
+  },
+  "footer": {
+    "dev": "Frontend Entwickler",
+    "ger": "Deutschland",
+    "legal": "Impressum"
+  },
+  "header": {
+    "about": "Über mich",
+    "skills": "Fähigkeiten",
+    "projects": "Projekte"
+  },
+  "landing": {
+    "dev": "Frontend Entwickler",
+    "work": "Meine Projekte",
+    "contact": "Kontaktiere mich",
+    "based": "Ansässig in Neuss",
+    "open": "Bereit zum Arbeiten",
+    "remote": "Verfügbar für Remote-Arbeit"
+  },
+  "legal": {
+    "title": "Impressum",
+    "info": "Angaben gemäß § 5 TMG:",
+    "contact": "Kontakt",
+    "phone": "Telefon",
+    "source": "Quelle",
+    "disclaimer": "Haftungsausschluss",
+    "liability": "Haftung für Inhalte",
+    "liability-text": "Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.",
+    "links": "Haftung für Links",
+    "links-text": "Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.",
+    "copy": "Urheberrecht",
+    "copy-text": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.",
+    "data": "Datenschutz",
+    "data-text": "Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder E-Mail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor."
+  },
+  "projects": {
+    "featured": "Hervorgehobene Projekte",
+    "explore": "Hier ist eine Auswahl meiner Arbeit – Interagiere mit Projekten, um meine Fähigkeiten in Aktion zu sehen."
+  },
+  "popUp": {
+    "join": {
+      "description": "Ein Aufgabenmanager, inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu."
+    },
+    "elPolloLoco": {
+      "description": "Ein objektorientiertes Jump-, Run- und Wurfspiel. Hilf Pepe, Münzen und Tabasco-Salsa zu finden, um gegen das verrückte Huhn zu kämpfen."
+    },
+    "simpleCrm": {
+      "description": "Ein einfaches Kundenbeziehungsmanagement-System, das mit CRUD-Funktionalität arbeitet."
+    },
+    "about": "Worum geht es in diesem Projekt?",
+    "next": "Nächstes Projekt"
+  },
+  "skills": {
+    "tech": "Technologien",
+    "set": "Fähigkeiten",
+    "paragraph": "Meine Reise beinhaltete die Arbeit an verschiedenen Projekten, bei denen ich eine Vielzahl von Frontend-Technologien und -Konzepten eingesetzt habe. Ich bin offen für neue Technologien und Methoden, um meine Fähigkeiten kontinuierlich zu verbessern und im sich ständig weiterentwickelnden Bereich der Webentwicklung an der Spitze zu bleiben.",
+    "another1": "Sie benötigen",
+    "another2": "eine andere Fähigkeit?",
+    "know": "Zögern Sie nicht, mich zu kontaktieren. Ich freue mich darauf, mein Wissen zu erweitern."
+  }
+}

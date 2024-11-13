@@ -1,0 +1,164 @@
+footer {
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        span,
+        a {
+            color: white;
+            font-family: "Karla", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            text-decoration: none;
+        }
+
+
+
+        .green {
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            color: #3DCFB6;
+            font-family: "Fira Code", monospace;
+        }
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        a {
+            color: white;
+            font-family: "Karla", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            text-decoration: none;
+        }
+
+        /*****************  Hover effect for a href in header  ***************************/
+        a {
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        a::before {
+            content: '';
+            position: relative;
+            left: 0;
+            margin-right: 8px;
+            width: 8px;
+            height: 8px;
+            background-color: #3DCFB6;
+            border-radius: 50%;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        a:hover::before {
+            opacity: 1;
+        }
+
+        a:hover {
+            color: #3DCFB6;
+        }
+    }
+
+    .name-content {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        width: 150px;
+        font-family: "Fira Code", monospace;
+        padding-right: 50px;
+        animation: 0.3s ease-out;
+        cursor: pointer;
+        margin-bottom: 15px;
+
+        &:hover {
+            .initials {
+                color: transparent;
+                -webkit-text-stroke: 1px #3DCFB6;
+            }
+
+            .name {
+                color: transparent;
+                -webkit-text-stroke: 1px white;
+            }
+        }
+
+        .initials {
+            font-size: 40px;
+            font-weight: 700;
+            color: #3DCFB6;
+            transform: rotate(90deg);
+            margin: 0;
+            -webkit-text-stroke: 1px transparent;
+        }
+
+        .name {
+            margin: 0;
+            color: white;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 24px;
+            -webkit-text-stroke: 1px transparent;
+        }
+    }
+}
+
+/****************************************   Responsive   ****************************************/
+@media(max-width:900px) {
+    footer {
+        position: relative !important;
+    }
+
+    .responsive {
+        position: absolute !important;
+        bottom: 60px !important;
+    }
+}
+
+@media(max-width:815px) {
+    footer {
+        padding: 100px 30px !important;
+    }
+}
+
+@media(max-width:430px) {
+    footer {
+        flex-direction: column-reverse !important;
+        align-items: center !important;
+        gap: 15px !important;
+        text-align: center !important;
+
+        .name-content {
+            margin-left: 25px !important;
+        }
+
+        .links {
+            display: flex !important;
+            gap: 8px !important;
+            flex-direction: unset !important;
+
+            a::before {
+                content: '';
+                top: -10px !important;
+                left: 50% !important;
+                margin-bottom: 12px !important;
+
+            }
+        }
+
+    }
+}

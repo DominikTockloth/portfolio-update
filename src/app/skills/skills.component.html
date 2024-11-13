@@ -1,0 +1,19 @@
+<section class="main" id="skills">
+    <div class="skills-content" data-aos="flip-left" data-aos-duration="1200" data-aos-delay="150">
+        <h4>{{'skills.tech' | translate}}</h4>
+        <div class="skills-text">
+            <h2>{{'skills.set' | translate}}</h2>
+            <p class="paragraph">{{'skills.paragraph' | translate}}</p>
+            <span class="another">{{'skills.another1' | translate}} <span class="green">{{'skills.another2' |
+                    translate}}</span></span>
+            <span>{{'skills.know' | translate}}</span>
+            <a href="#contact">Lets's talk</a>
+        </div>
+    </div>
+    <div class="skills-img" data-aos="flip-right" data-aos-duration="1200" data-aos-delay="350">
+        <div class="img-box" *ngFor="let image of images; let i = index">
+            <img [src]="basePath + image">
+            <span>{{textItems[i]}}</span>
+        </div>
+    </div>
+</section>

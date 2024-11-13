@@ -1,0 +1,56 @@
+<div class="scroll-offset2" id="contact"></div>
+<section class="main">
+    <div class="left" data-aos="fade-down-right" data-aos-duration="1400" data-aos-delay="180">
+        <h4>{{'contact.me' | translate}}</h4>
+        <h2>{{'contact.together' | translate}}</h2>
+        <span>{{'contact.problem' | translate}}</span>
+        <p>{{'contact.paragraph' | translate}}</p>
+        <div class="dev"> <span class="need">{{'contact.need'| translate}}</span> <span class="talk">{{'contact.talk' |
+                translate}}</span>
+        </div>
+    </div>
+    <div class="form-box" data-aos="fade-down-left" data-aos-duration="1400" data-aos-delay="180">
+        <form [formGroup]="messageForm" (ngSubmit)="onSubmit()">
+            <div class="input-box">
+                <span>{{'contact.name' | translate}}</span>
+                <input class="input" type="text" appTransparentInput
+                    [placeholder]="(messageForm.controls['name'].hasError('required') && messageForm.controls['name'].touched ? 'contact.placeholder-name-missing' : 'contact.placeholder-name') | translate"
+                    (focus)="messageForm.controls['name'].markAsTouched()" formControlName="name"
+                    onfocus="this.style.border='none'; this.style.outline='none';" formControlName="name" name="name"
+                    (focus)="messageForm.controls['name'].markAsTouched()" required [(ngModel)]="contactData.name">
+
+            </div>
+            <div class="input-box">
+                <span>{{'contact.mail' | translate}}</span>
+                <input class="input" type="email" appTransparentInput
+                    [placeholder]="(messageForm.controls['email'].hasError('required') && messageForm.controls['email'].touched ? 'contact.placeholder-mail-missing' : 'contact.placeholder-mail') | translate"
+                    (focus)="messageForm.controls['email'].markAsTouched()"
+                    onfocus="this.style.border='none'; this.style.outline='none';" formControlName="email" name="email"
+                    required>
+
+            </div>
+            <div class="input-box">
+                <span>{{'contact.message' | translate}}</span>
+                <input class="input" type="text" appTransparentInput
+                    [placeholder]="(messageForm.controls['message'].hasError('required') && messageForm.controls['message'].touched ? 'contact.placeholder-message-missing' : 'contact.placeholder-message') | translate"
+                    (focus)="messageForm.controls['message'].markAsTouched()"
+                    onfocus="this.style.border='none'; this.style.outline='none';" formControlName="message"
+                    name="message" required>
+
+            </div>
+            <div class="policy-box"><input type="checkbox" formControlName="checkbox" required><span>{{'contact.have1' |
+                    translate}} <span class="policy" routerLink="legal-notice">{{'contact.policy' | translate}}</span>
+                </span><span>{{'contact.have2' | translate}}</span>
+            </div>
+            <div class="btn-box"><button type="submit" [disabled]="!messageForm.valid"
+                    [ngClass]="{'valid': messageForm.valid, 'invalid': !messageForm.valid}">{{'contact.hello' |
+                    translate}}</button></div>
+        </form>
+    </div>
+</section>
+<!----------------------------------------------    Success message after sending contact form   ------------------------------------>
+<div class="message" *ngIf="isMailSent">
+    <div class="content">
+        <p>{{'contact.succsess1' | translate}} <span>{{'contact.succsess2' | translate}}</span></p>
+    </div>
+</div>
