@@ -27,8 +27,8 @@
     "have2": "und stimme der Verarbeitung meiner Daten wie beschrieben zu.",
     "policy": "Datenschutzerklärung",
     "hello": "Sag Hallo ;-)",
-    "succsess1": "Deine Nachricht wurde  gesendet",
-    "succsess2": "erfolgreich"
+    "succsess1": "Deine Nachricht wurde",
+    "succsess2": "erfolgreich gesendet"
   },
   "footer": {
     "dev": "Frontend Entwickler",
