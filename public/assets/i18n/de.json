@@ -14,7 +14,7 @@
     "paragraph": "Kontaktieren Sie mich über dieses Formular. Ich freue mich darauf, von Ihnen zu hören, Ihre Ideen kennenzulernen und mit meiner Arbeit zu Ihren Projekten beizutragen.",
     "need": "Sie brauchen einen Frontend Entwickler?",
     "talk": "Lass uns reden!",
-    "name": "Wie ist Ihr Name?",
+    "name": "Wie ist dein Name?",
     "placeholder-name": "Trage deinen Namen ein",
     "placeholder-name-missing": "Oops! Ich brauche deinen Namen",
     "mail": "Wie ist deine E-Mail?",
@@ -32,6 +32,7 @@
   },
   "footer": {
     "dev": "Frontend Entwickler",
+    "west":"Westfalen",
     "ger": "Deutschland",
     "legal": "Impressum"
   },
